@@ -1,0 +1,21 @@
+div {
+  text-align: center;
+}
+
+input {
+  border-style: double;
+  width: 150px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: rebeccapurple;
+  margin: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+label {
+  font-size: 20px;
+  margin-top: 5px;
+}

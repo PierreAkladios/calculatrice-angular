@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <label for="premier">Premier nombre:</label><br />
+  <input type="number" id="premier" name="premier" /><br />
+  <label for="second">Second nombre:</label><br />
+  <input type="number" id="second" name="second" /><br />
+  <label for="result">Résultats:</label><br />
+  <input type="number" id="result" name="result" /><br />
+
+  <div>
+    <button (click)="add(premier.value, second.value)" type="button">+</button>
+    <button (click)="substract(premier.value, second.value)" type="button">
+      -
+    </button>
+    <button (click)="multiply(premier.value, second.value)" type="button">
+      *
+    </button>
+    <button (click)="divide(premier.value, second.value)" type="button">
+      /
+    </button>
+  </div>
+</div>
